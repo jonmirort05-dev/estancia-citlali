@@ -1,0 +1,143 @@
+/* ==========================================
+   ESTANCIA CITLALI
+   Design System v1.0
+========================================== */
+
+:root {
+
+    /* ======================================
+       COLORES PRINCIPALES
+    ====================================== */
+
+    --plumbago-50: #F5F9FC;
+    --plumbago-100: #DCECF8;
+    --plumbago-200: #BFDDF2;
+    --plumbago-300: #9EC9E2;
+    --plumbago-400: #82A1D2;
+    --plumbago-500: #577FCD;
+    --plumbago-600: #253F7C;
+    --plumbago-700: #102254;
+
+    /* Fondo */
+
+    --background-primary: #102254;
+    --background-secondary: #253F7C;
+
+    /* Tarjetas */
+
+    --card-color: rgba(255, 255, 255, .10);
+
+    /* Texto */
+
+    --text-primary: #FFFFFF;
+    --text-secondary: #D8E7F6;
+    --text-muted: #AFC4DB;
+
+    /* Estrellas */
+
+    --star-color: #FFD875;
+
+    /* Dorado */
+
+    --gold: #D8B15C;
+
+}
+
+/* ======================================
+   TIPOGRAFÍAS
+====================================== */
+
+:root {
+
+    --title-font: "Cormorant Garamond", serif;
+
+    --body-font: "Poppins", sans-serif;
+
+}
+
+/* ======================================
+   BORDES
+====================================== */
+
+:root {
+
+    --radius-small: 10px;
+
+    --radius-medium: 18px;
+
+    --radius-large: 30px;
+
+    --radius-round: 999px;
+
+}
+
+/* ======================================
+   SOMBRAS
+====================================== */
+
+:root {
+
+    --shadow-small:
+        0 5px 15px rgba(0, 0, 0, .15);
+
+    --shadow-medium:
+        0 15px 35px rgba(0, 0, 0, .25);
+
+    --shadow-large:
+        0 25px 50px rgba(0, 0, 0, .35);
+
+}
+
+/* ======================================
+   GLASS EFFECT
+====================================== */
+
+:root {
+
+    --glass-bg:
+        rgba(255, 255, 255, .12);
+
+    --glass-border:
+        rgba(255, 255, 255, .18);
+
+    --glass-blur:
+        blur(18px);
+
+}
+
+/* ======================================
+   TRANSICIONES
+====================================== */
+
+:root {
+
+    --transition-fast:
+        .25s ease;
+
+    --transition-normal:
+        .45s ease;
+
+    --transition-slow:
+        .8s ease;
+
+}
+
+/* ======================================
+   ESPACIADOS
+====================================== */
+
+:root {
+
+    --space-xs: 6px;
+
+    --space-sm: 12px;
+
+    --space-md: 20px;
+
+    --space-lg: 32px;
+
+    --space-xl: 48px;
+
+    --space-xxl: 72px;
+
+}

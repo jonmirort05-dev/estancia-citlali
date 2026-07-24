@@ -1,0 +1,44 @@
+<svg
+xmlns="http://www.w3.org/2000/svg"
+viewBox="0 0 120 120">
+
+<defs>
+
+<filter id="shadow">
+
+<feDropShadow
+dx="0"
+dy="4"
+stdDeviation="4"
+flood-color="#C9961A"
+flood-opacity=".45"/>
+
+</filter>
+
+</defs>
+
+<path
+
+filter="url(#shadow)"
+
+fill="#FFD64D"
+
+stroke="#C9961A"
+
+stroke-width="4"
+
+stroke-linejoin="round"
+
+d="M60 10
+L72 42
+L108 45
+L80 67
+L89 103
+L60 84
+L31 103
+L40 67
+L12 45
+L48 42
+Z"/>
+
+</svg>
