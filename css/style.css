@@ -14,7 +14,7 @@
 
 body{
 
-    min-height:100vh;
+    min-height:100dvh;
 
     font-family:var(--body-font);
 
@@ -27,7 +27,9 @@ body{
             var(--background-secondary)
         );
 
-    overflow:hidden;
+    overflow-x:hidden;
+
+    overflow-y:auto;
 
 }
 
@@ -91,8 +93,10 @@ body::before{
 
     width:min(700px,100%);
 
-    max-height:100vh;
+height:min(90vh,850px);
 
+max-height:90dvh;
+   
     padding:60px;
 
     scroll-behavior:smooth;
