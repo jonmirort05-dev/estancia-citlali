@@ -1,0 +1,251 @@
+@keyframes twinkle{
+
+    0%{
+
+        opacity:.45;
+
+    }
+
+    50%{
+
+        opacity:.9;
+
+    }
+
+    100%{
+
+        opacity:.45;
+
+    }
+
+}
+
+
+@keyframes floatingMoon{
+
+    0%{
+
+        transform:translateY(0px);
+
+    }
+
+    50%{
+
+        transform:translateY(-12px);
+
+    }
+
+    100%{
+
+        transform:translateY(0px);
+
+    }
+
+}
+
+
+/*=========================================
+    LUNA
+=========================================*/
+
+@keyframes floatingMoon{
+
+    0%{
+
+        transform:translateY(0px);
+
+    }
+
+    50%{
+
+        transform:translateY(-10px);
+
+    }
+
+    100%{
+
+        transform:translateY(0px);
+
+    }
+
+}
+
+/*=========================================
+    ESTRELLAS
+=========================================*/
+
+@keyframes twinkle{
+
+    0%{
+
+        opacity:.35;
+
+    }
+
+    50%{
+
+        opacity:.65;
+
+    }
+
+    100%{
+
+        opacity:.35;
+
+    }
+
+}
+
+
+/*=========================================
+    ENTRADA DE LA TARJETA
+=========================================*/
+
+@keyframes cardEntrance{
+
+    from{
+
+        opacity:0;
+
+        transform:
+            translateY(35px)
+            scale(.98);
+
+    }
+
+    to{
+
+        opacity:1;
+
+        transform:
+            translateY(0)
+            scale(1);
+
+    }
+
+}
+
+.fade-out{
+
+    animation:fadeOut .5s forwards;
+
+}
+
+.fade-in{
+
+    animation:fadeIn .6s forwards;
+
+}
+
+@keyframes fadeOut{
+
+    from{
+
+        opacity:1;
+
+        transform:scale(1);
+
+    }
+
+    to{
+
+        opacity:0;
+
+        transform:scale(.97);
+
+    }
+
+}
+
+@keyframes fadeIn{
+
+    from{
+
+        opacity:0;
+
+        transform:scale(.97);
+
+    }
+
+    to{
+
+        opacity:1;
+
+        transform:scale(1);
+
+    }
+
+}
+
+
+@keyframes loading{
+
+    from{
+
+        transform:translateX(-150%);
+
+    }
+
+    to{
+
+        transform:translateX(350%);
+
+    }
+
+}
+
+/* ==========================================
+   TRANSICIONES DEL FORMULARIO
+========================================== */
+
+.fade-in{
+
+    animation: fadeInQuestion .45s ease forwards;
+
+}
+
+.fade-out{
+
+    animation: fadeOutQuestion .30s ease forwards;
+
+}
+
+@keyframes fadeInQuestion{
+
+    from{
+
+        opacity:0;
+
+        transform:translateY(20px);
+
+    }
+
+    to{
+
+        opacity:1;
+
+        transform:translateY(0);
+
+    }
+
+}
+
+@keyframes fadeOutQuestion{
+
+    from{
+
+        opacity:1;
+
+        transform:translateY(0);
+
+    }
+
+    to{
+
+        opacity:0;
+
+        transform:translateY(-20px);
+
+    }
+
+}
